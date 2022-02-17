@@ -9,7 +9,9 @@ html{
     max-width: 1020px;
     margin: 0 auto;
 }
-
+a{
+    color:#2D3748;
+}
 
 @media (max-width:1020px){
     .container{
