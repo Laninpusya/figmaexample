@@ -1,0 +1,1064 @@
+header {
+    display: flex;
+    justify-content: center;
+    font-family: lato, sans-serif;
+    width: 100%;
+}
+
+
+
+
+
+.empty-block {
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F2F2F2;
+}
+.container{
+    max-width: 990px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    padding-top: 62px;
+    /* padding-left: 190px;
+    padding-right: 190px; */
+    position: fixed;
+    z-index: 9999;
+    width: 74%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.background{
+    /* max-width: 1440px;
+    margin: 0 auto; */
+    width: 100%;
+}
+
+.backgroundimg{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* width: 73%; */
+    height: 962px;
+    justify-content: center;
+    width: 100%;
+}
+
+.backgroundimg > img{
+    /* position: static;
+    z-index: 1; */
+    max-width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.title{
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    /* left: 191px;
+    top: -800px; */
+    width: 74%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.title1{
+    max-width: 620px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.titletext{
+    max-width: 546px;
+    font: size 16px;
+    font-weight: 400;
+    line-height: 24px
+}
+.titletext p {
+    color: rgb(255, 255, 255);
+}
+
+.second-block {
+    display: flex;
+
+
+}
+
+.empty-block {
+
+    margin-left: 41px;
+
+    max-width: 1200px;
+} 
+
+
+.review{
+
+    display: flex;
+    color: #FFFFFF;
+    /* margin-left: 130px; */
+    position: relative;
+    /* left: 64px; */
+    /* top: -730px; */
+    justify-content: space-between;
+    width: 62%;
+    /* margin: 0 auto; */
+    margin-left: 13%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.review1{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #BFC0C5;
+    padding-right: 20px;
+    padding-left: 4px;
+}
+
+.review1 > p,
+.review2 > p{
+    padding-left: 10px;
+}
+.oval1 {
+    position: relative;
+    top: -16px;
+    /* left: -10px; */
+}
+.line1 {
+    position: relative;
+    left: -245px;
+    display: none;
+}
+
+
+.review2{
+    display: flex;
+    align-items: flex-end;
+    /* position: relative;
+    right: 169px; */
+    border-bottom: 2px solid #BFC0C5;
+    padding-right: 20px;
+    padding-left: 4px;
+}
+
+
+.oval2 {
+    position: relative;
+    top: -16px;
+    /* left: -10px; */
+}
+.oval1:hover{
+    cursor: pointer;
+}
+.oval2:hover{
+    cursor: pointer;
+}
+.line2 {
+    position: relative;
+    left: -245px;
+    display: none;
+}
+
+.btnsearch {
+    font-family: lato;
+    font-style: normal;
+    line-height: 29px;
+    position: relative;
+    /* right: 322px; */
+    width: 171px;
+    height: 58px;
+    background-color: #1B7DFF;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btnsearch:hover{
+    cursor: pointer;
+}
+
+
+
+
+.main {
+    display: flex;
+    align-items: center;
+    font-family: lato, sans-serif;
+    width: 87%;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 1440px;
+}
+.benfitscard {
+    /* max-width: 1270px; */
+    height: 655px;
+    background-color: rgb(255, 255, 255);
+    /* position: static;
+    top: 50%; */
+    transform: translate(0%, -30%);
+    box-shadow: 0px 2px 20px 0px #151824;
+}
+.benfitstitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    margin-left: 100px;
+    margin-top: 93px;
+    margin-bottom: 120px;
+}
+.betfitstransition {
+    display: flex;
+}
+
+
+.minititle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+.minitext {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+
+.learnmore {
+    display: flex;
+    justify-content: space-between;
+}
+.learnmoretext {
+}
+.arrow {
+    transform: translate(-430%, 27%);
+}
+
+.betfitstransition a{
+    color: #006DFE;
+    ;
+}
+
+.welcome {
+    height: 288px;
+    max-width: 317px;
+    margin-left: 100px;
+    margin-right: 55px;
+}
+.guide {
+    max-height: 317px;
+}
+.promoting {
+    max-height: 317px;
+    margin-right: 100px;
+    margin-left: 55px;
+}
+
+
+.icon1 {
+    margin-bottom: 37px;
+}
+
+.icon2 {
+    margin-bottom: 37px;
+}
+
+.icon3 {
+    margin-bottom: 37px;
+}
+
+
+
+
+
+
+
+
+
+
+.ilustration {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-bottom: 800px;
+
+}
+
+.ilustrationtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+}
+.getinspired {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+}
+.vievall {
+    transform: translate(-20%, 0%);
+    display: flex;
+}
+.vievall:hover{
+    cursor: pointer;
+}
+.vievalltext {
+    color: #006DFE;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.arrow2 {
+    transform: translate(30%, 29%);
+}
+
+
+
+.image2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 354px;
+}
+
+.image2 > div{
+    display: block;
+    width: 49.5%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image2 > div > img{
+    /* width: 100%;
+    object-fit: cover;
+    height: 100%; */
+
+    width: 108%;
+    object-fit: fill;
+    height: 104%;
+    margin-left: -4%;
+    margin-top: -4%;
+}
+
+.image2 > div > img > a > p{
+    margin: 0;
+}
+
+
+.image2 > div > a{
+    /* transform: translate(8%, -260%); */
+    z-index: 2;
+    position: absolute;
+    margin: 0;
+    left: 29px;
+    bottom: 90px;
+}
+
+.image2 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: -30px;
+}
+
+.image3 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+/* .image2 img{
+    max-width: 619px;
+
+} */
+
+.image3 > div{
+    display: block;
+    width: 33.33%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.image3 > div > img{
+    width: 108%;
+    object-fit: fill;
+    height: 104%;
+    margin-left: -4%;
+    margin-top: -4%;
+}
+
+.image3 a{
+    z-index: 2;
+    position: absolute;
+    margin: 0;
+    left: 29px;
+    bottom: 8px;
+}
+
+.image3 img{
+    width: 100%;
+    
+}
+.image3 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    /* transform: translate(8%, -260%); */
+}
+
+/* .image3 {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0%, -37%);
+    
+} */
+.mount {
+    /* flex: 0 1 50%; */
+}
+.kyoto {
+    /* flex: 0 1 50%; */
+}
+
+.tokyo {
+    max-width: 415px;
+    margin-right: 5px;
+    flex: 0 1 33%;
+}
+.niigata {
+    max-width: 415px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 0 1 33%;
+}
+.sapporo {
+    max-width: 415px;
+    padding-right: 0px;
+    padding-left: 0px;
+    flex: 0 1 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.totori {
+    display: flex;
+    max-width: 1202px;
+    transform: translate(0%, -190%);
+}
+.imagehouse {
+}
+.housetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.titlehouse {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+}
+.texthouse {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+.prefecture {
+    display: flex;
+    align-items: center;
+
+}
+.prefecturetext {
+}
+.prefecturetext p{
+    color: #006DFE;
+}
+.prefecturearrow {
+    margin-left: 26px;
+}
+.arashiyama {
+    display: flex;
+    max-width: 1202px;
+    transform: translate(0%, -175%);
+}
+.arashiyamatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-top: -30px;
+    padding-left: 35px;
+}
+.arashiyamatextmini{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+.arashiyamatitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+}
+.arashiyamaprefecture {
+    display: flex;
+    align-items: center;
+
+}
+.textprefecture {
+}
+.textprefecture p{
+    color: #006DFE;
+}
+.arrowprefecture {
+    margin-left: 26px;
+}
+.arashiyamaimage {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.holdcontaiter{
+    position: static;
+    transform: translate(0%, -33%);
+}
+
+
+.topplaces {
+    color: #102746;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    position: static;
+    transform: translate(0%, 60%);
+}
+.topplaceshr{
+    position: static;
+    transform: translate(0%, 0%);
+    margin-bottom: 40px;
+}
+
+.holder {
+    max-width: 1202px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card1 {
+    max-width: 391px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    padding-right: 35px;
+}
+.cardimage {
+}
+.cardname {
+
+}
+.place {
+    transform: translate(0%, -299%);
+    color: #FFFFFF;
+    margin-left: 14px;
+} 
+.like {
+    transform: translate(0%, -347%);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 11px;
+}
+.likes {
+    margin-right: 5px;
+}
+.coments {
+}
+.cardtext {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transform: translate(0%, -100%);
+}
+.cardseemore {
+    transform: translate(0%, -100%);
+}
+
+
+
+.cardseemore button{
+    font-family: lato;
+    font-style: normal;
+    line-height: 29px;
+    position: relative;
+    width: 171px;
+    height: 58px;
+    background-color: #1B7DFF;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cardseemore button:hover{
+    cursor: pointer;
+}   
+
+
+
+.card{
+    max-width: 377px;
+    flex: 1 1 30%;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+
+.card2 {
+    max-width: 391px;
+    flex: 1 1 30%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.card3 {
+    max-width: 391px;
+    flex: 1 1 30%;
+    padding-left: 35px;
+}
+.card4 {
+    max-width: 391px;
+    flex: 1 1 30%;
+}
+.card5 {
+    max-width: 391px;
+    flex: 1 1 30%;
+}
+.card6 {
+    max-width: 391px;
+    flex: 1 1 30%;
+}
+
+
+
+
+
+
+
+
+
+
+.videocontainer {
+    transform: translate(0%, -75%);
+    max-width: 1440px;
+    width: 100%;
+}
+.videos {
+}
+.videoelement{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    transform: translate(0%, 0%);
+    position: static;
+    margin-top: -464px;
+}
+
+
+
+
+
+
+.footerclass {
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(0%, 40%);
+
+
+}
+.footerlogo {
+
+    transform: translate(-32%, 10%);
+}
+.company {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.divcompany {
+}
+.classlocation {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.divlocation {
+}
+.socialmedia {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.divsocial {
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px){
+    .logo > a > img{
+        width: 35px;
+    }
+    .empty-block{
+        margin-left: 5px;
+    }
+    .title1{
+        max-width: 620px;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 60px;
+    }
+    .titletext{
+        font-size: 10px;
+    }
+    .review{
+        flex-wrap: wrap;
+
+    }
+    .review1 p {
+        font-size: 10px;
+    }
+    .review2 p {
+        font-size: 10px;
+    }
+    .oval1{
+        width: 12px;
+        top: -10px;
+    }
+    .oval2{
+        width: 12px;
+        top: -10px;
+    }
+    .btnsearch{
+        width: 85px;
+        height: 30px;
+    }
+    .benfitscard{
+        height: auto;
+        transform: translate(0%, -26%);
+    }
+    .benfitstitle{
+        font-size: 23px;
+        margin-top: 0px;
+        line-height: 0px;
+        margin-left: 0px;
+    }
+    .betfitstransition{
+        flex-direction: column;
+    }
+    .welcome{
+        height: 370px;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    .guide{
+        height: 370px;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    .promoting{
+        height: 370px;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    .image2{
+        flex-direction: column;
+    }
+    .image2 p{
+        font-size: 19px;
+        margin-bottom: -79px
+    }
+    .image3{
+        flex-direction: column;
+        align-items: center;
+        transform: translate(0%, 25%);
+    }
+    .image3 p{
+        font-size: 15px;
+        line-height: 0px;
+        margin: -6px 0px 0px -22px;
+    
+    }
+    .image3 > div{
+        width: 40%;
+    }
+    .arashiyama{
+        transform: translate(0%, -100%);
+    }
+    .footerlogo{
+        transform: translate(0%, 0%);
+        
+    }
+    .footerlogo > img{
+        width: 73px;
+    }
+    .company{
+    font-size: 13px;
+    line-height: 15px;
+    }
+    .classlocation{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .socialmedia{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .videocontainer{
+        width: 113%;
+    }
+}
+
+@media screen and (max-width: 866px) {
+    .betfitstransition{
+        overflow: scroll;
+    }
+    .totori{
+        transform: translate(0%, -125%);
+        flex-direction: column-reverse;
+    }
+    .housetext{
+        margin-left: 0;
+    }
+    .arashiyama{
+        transform: translate(0%, -100%);
+        flex-direction: column;
+    }
+    .arashiyamatext{
+        padding-left: 0;
+    }
+    .holdcontaiter{
+        transform: translate(0%, -400%);
+
+    }
+    .topplaces{
+        transform: translate(0%, 30%);
+    }
+    .cards{
+        position: absolute;
+    }
+    .videocontainer{
+        transform: translate(0%, 550%)   
+    }
+    footer{
+        transform: translate(0%, 1036%)
+    }
+    .image2{
+        margin-bottom: -74px;
+    }
+    .image2 > div {
+        height: 65%;
+    }
+    .image3 > div{
+        height: 65%;
+    }
+    .main{
+        width: 100%;
+    }
+    .imagehouse > img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .arashiyamaimage > img {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+    .totori{
+        transform: translate(0%, -125%);
+        flex-direction: column-reverse;
+    }
+    .housetext{
+        margin-left: 0;
+    }
+    .arashiyama{
+        transform: translate(0%, -120%);
+        flex-direction: column;
+        margin-top: 36px;
+    }
+    .arashiyamatext{
+        padding-left: 0;
+        
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1013px) {
+    .totori{
+        transform: translate(0%, -125%);
+        flex-direction: column-reverse;
+    }
+    .housetext{
+        margin-left: 0;
+    }
+    .arashiyama{
+        transform: translate(0%, -120%);
+        flex-direction: column;
+    }
+    .arashiyamatext{
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 1440px){
+    .btnsearch{
+        /* right: 130px; */
+    }
+    .review{
+        align-items: flex-end;
+    }
+    
+}
+@media screen and (max-width: 1324px){
+    .arrow {
+        transform: translate(0%, 27%);
+    }
+}
